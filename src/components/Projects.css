@@ -1,0 +1,13 @@
+.projects {
+    padding: 20px 0;
+  }
+  
+  .projects ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .projects li {
+    margin-bottom: 10px;
+  }
+  
