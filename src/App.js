@@ -1,23 +1,21 @@
-import React from 'react';
-import Header from './components/Header';
-import Intro from './components/Intro';
-import Projects from './components/Projects';
-import Education from './components/Education';
-import Skills from './components/Skills';
-import Footer from './components/Footer';
-import './App.css';
+import Education from "./Components/Education";
+import Skills from "./Components/Skills";
+import Footer from "./Components/Footer";
+import Home from "./Components/Home";
+import Navbar from "./Components/Navbar";
+import Projects from "./Components/Projects";
 
-const App = () => (
-  <div className="App">
-    <Header />
-    <div className="container">
-      <Intro />
-      <Projects />
+function App() {
+  return (
+    <div className="bg-[#171d32] h-auto w-full overflow-hidden">
+      <Navbar />
+      <Home />
       <Education />
       <Skills />
+      <Projects />
+      <Footer />
     </div>
-    <Footer />
-  </div>
-);
+  );
+}
 
 export default App;
